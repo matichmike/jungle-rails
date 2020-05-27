@@ -5,6 +5,7 @@
   </header>
 
   <div class="panel panel-default items">
+  <% if enhanced_cart.product.any? %>
     <table class="table table-bordered">
       <thead>
         <tr>
@@ -30,6 +31,7 @@
         </tr>
       </tfoot>
     </table>
+    
   </div>
 
   <div class="row">
@@ -48,5 +50,10 @@
       <% end %>
     </div>
   </div>
-
+<% else %>
+    <div class="alert alert-danger" role="alert">
+      <h4>Cart is empty!</h4>
+    </div>
+    <%= button_to "Home Page", root_path, method: :get, class: 'btn btn-primary' %>
+    <% end %>
 </section>
