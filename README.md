@@ -2,6 +2,15 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Final Product
+
+!["Index Page with selection of products"](https://github.com/matichmike/jungle-rails/blob/master/screenshots/index.png?raw=true)
+
+!["Cart with the product"](https://github.com/matichmike/jungle-rails/blob/master/screenshots/cart.png?raw=true)
+
+!["Purchase using stripe test"](https://github.com/matichmike/jungle-rails/blob/master/screenshots/purchase.png?raw=true)
+
+!["Login screen"](https://github.com/matichmike/jungle-rails/blob/master/screenshots/login.png?raw=true)
 
 ## Setup
 
